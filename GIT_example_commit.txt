@@ -1,0 +1,19 @@
+:: Get the history first
+git log --oneline --graph --all
+
+:: Sign off commit with my email and name
+git commit -s 		
+
+:: Amend latest commit changes, do not make new commit
+git commit amend
+
+:: Fix up some amend in the history and change the code
+git commit --fixup HASH
+
+:: Fix Up Example:
+git commit --fixup f3bd518
+
+:: Force update the master 
+git push origin --force
+
+git fetch --all --prune

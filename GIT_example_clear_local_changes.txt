@@ -1,0 +1,6 @@
+:: To undo all local changes, including uncommitted changes and untracked files, you can use the following commands:
+:: git reset --hard: This will reset your working directory and staging area to match the last commit, discarding any changes you have made.
+:: git clean -fd: This will remove any untracked files and directories.
+
+git reset --hard
+git clean -fd

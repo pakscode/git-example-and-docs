@@ -1,0 +1,17 @@
+:: Add a new URL to a branch
+git remote add repoName [your URL (xxxx.git)]
+
+:: View remote link in branch
+git branch -r
+
+:: View remote link
+git remote remove [RemoteLinkhName]
+
+
+:: show the remote link of a branch
+git branch -vv
+
+
+:: Show the URL's info
+git remote show repoName
+

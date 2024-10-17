@@ -1,0 +1,10 @@
+cd /path/to/your/repository
+echo "/example.txt" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore"
+
+
+:: Remove cached file
+git rm -r --cached .
+git add .
+git commit -m "Remove cached ignore files"
